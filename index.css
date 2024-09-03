@@ -2,7 +2,6 @@
 
 /* 공통 CSS */
 
-/* float을 해제하는 가상선택자 */
 .clearfix::after {
     content: "";
     display: block;
