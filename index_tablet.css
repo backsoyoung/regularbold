@@ -7,10 +7,6 @@
     header {
         height: 80px;
         padding: 10px 0;
-        /* 
-        nav의 기준요소!
-        position:fixed도 절대위치의 기준이 될 수 있다!
-        */
     }
 
     header .inner {
@@ -74,15 +70,9 @@
         padding: 12px;
     }
 
-    article.works{
-        /* background-color: darkorange; */
-    }
     article.works .img-wrap .img-box{
         width: 49%;
     }
-    /* article.works .img-wrap .img-box~.img-box{
-        margin-left: 2%;
-    } */
     article.works .img-wrap .img-box:nth-child(2n+1){
         margin-left: 0;
     }
